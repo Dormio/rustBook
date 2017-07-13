@@ -1,0 +1,14 @@
+1) Var logs has some very good files to look through.
+- system.log seems to have a bit of everything. Look through here and figure
+  out what we want to do. It's all plaintext.
+- daily.log seems not to have very useful things inside of it. 
+- weekly.log is a joke
+- monthly.out seems to be fairly useless too.
+- install.log has a list of what a lot of installs are going on. Could be worth
+  further examination.
+
+
+2) In /System/Library/LaunchDaemons there are tons of daemons. Keep of list of
+those daemons and check at startup to see if they've changed.
+
+3) 
